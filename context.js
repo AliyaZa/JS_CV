@@ -1,5 +1,5 @@
 const person = {
-	surname: 'Stark'
+	surname: 'Stark',
 	knows: function (what, name) {
 		console.log(`you ${what} know, ${name} ${this.surname}`)
 	}
